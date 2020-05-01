@@ -39,6 +39,10 @@ function Game() {
             setWinner(foundWinner)
             setTurn('')
             return
+        } else if(counter === 8) {
+            setWinner('Draw')
+            setTurn('')
+            return
         }
 
         // switch the player and return
